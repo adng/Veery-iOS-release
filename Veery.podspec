@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :local => './' }
+  s.source       = { :git => 'https://github.com/roofstreet/Veery.ios.release.git', :tag => 'v0.0.1' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
