@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Veery"
-  s.version      = "0.0.1"
-  s.summary      = "An advanced geolocalisation API"
+  s.version      = "0.0.2"
+  s.summary      = "An advanced geolocalisation API for iOS"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => 'https://github.com/roofstreet/Veery.ios.release.git', :tag => 'v0.0.1' }
+  s.source       = { :git => 'https://github.com/roofstreet/Veery.ios.release.git', :tag => 'v' + s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
