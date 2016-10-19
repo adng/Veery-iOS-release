@@ -110,62 +110,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_UNAVAILABLE __attribute__((unavailable))
 #endif
 #if defined(__has_feature) && __has_feature(modules)
-@import ObjectiveC;
-@import CoreLocation;
-@import CoreData;
-@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
-@class CLLocation;
-@class CLLocationManager;
-
-SWIFT_CLASS("_TtC5Veery15LocationManager")
-@interface LocationManager : NSObject <CLLocationManagerDelegate>
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull geocorrelDataVersion;)
-+ (NSString * _Nonnull)geocorrelDataVersion;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull remoteWebServerURL;)
-+ (NSString * _Nonnull)remoteWebServerURL;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)start;
-- (void)stop;
-- (CLLocation * _Nullable)getLastLocation;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)newLocations;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didFinishDeferredUpdatesWithError:(NSError * _Nullable)error;
-@end
-
-@class NSEntityDescription;
-@class NSManagedObjectContext;
-
-SWIFT_CLASS_NAMED("Motion")
-@interface Motion : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSNumber;
-
-@interface Motion (SWIFT_EXTENSION(Veery))
-@property (nonatomic, strong) NSNumber * _Nullable rotX;
-@property (nonatomic, strong) NSNumber * _Nullable rotY;
-@property (nonatomic, strong) NSNumber * _Nullable rotZ;
-@property (nonatomic, strong) NSNumber * _Nullable accX;
-@property (nonatomic, strong) NSNumber * _Nullable accY;
-@property (nonatomic, strong) NSNumber * _Nullable accZ;
-@property (nonatomic, strong) NSNumber * _Nullable timestamp;
-@end
-
-@class NSURLSession;
-@class NSURLSessionTask;
-@class NSURLSessionDataTask;
-
-SWIFT_CLASS("_TtC5Veery14NetworkManager")
-@interface NetworkManager : NSObject <NSURLSessionTaskDelegate, NSURLSessionDataDelegate>
-- (void)sendDataToRemoteWebServer:(NSData * _Nonnull)data dataType:(NSString * _Nonnull)dataType;
-- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
-- (void)URLSession:(NSURLSession * _Nonnull)session dataTask:(NSURLSessionDataTask * _Nonnull)dataTask didReceiveData:(NSData * _Nonnull)data;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
 #pragma clang diagnostic pop

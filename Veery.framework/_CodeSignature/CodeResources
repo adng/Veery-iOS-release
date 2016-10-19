@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Veery-Swift.h</key>
 		<data>
-		5FI4Vw5TvIjmTAevNeL4jpGSODM=
+		Tln/9IQo2L21GRfLzOFary94c0Q=
 		</data>
 		<key>Headers/Veery.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Model.momd/Model.mom</key>
 		<data>
-		fWMERsm0U99W42lITWuaQQaUBtU=
+		UItJ/1xAs+iM2lgaOApRRyGncKE=
 		</data>
 		<key>Model.momd/Model.omo</key>
 		<data>
-		CSEhx/4U4TsA7I5NStkJ+4KjqKs=
+		N68kTcTbFgH83f0XXRAZ6E1xfH0=
 		</data>
 		<key>Model.momd/VersionInfo.plist</key>
 		<data>
-		Sqkw2Rl0qPc038dRRtaAbGNyN7A=
+		W7q5bJlwpOMoJmi+GxkkrtQmlZQ=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Veery.swiftmodule/arm.swiftmodule</key>
 		<data>
-		CRnTxCxODZkZwcPwCeigKiiU6jk=
+		l+t8+6PRjd0uFvB1alzZerLVH8w=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/Veery.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		bVXbs1RaKKuYyxjN/QgF8/TaTSk=
+		CgOGn6N3i3c6PeJ/4gO7jzDbCMM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5FI4Vw5TvIjmTAevNeL4jpGSODM=
+			Tln/9IQo2L21GRfLzOFary94c0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			8jeWMjjMJ8jaDJa5skSx185pTlnR7O+kAgaCo3qLJYk=
+			8OOhtwFWi8LhdPIB+ALONegnrtjqCq1IAObXNtzqth4=
 			</data>
 		</dict>
 		<key>Headers/Veery.h</key>
@@ -77,33 +77,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fWMERsm0U99W42lITWuaQQaUBtU=
+			UItJ/1xAs+iM2lgaOApRRyGncKE=
 			</data>
 			<key>hash2</key>
 			<data>
-			OfH3iseKb93H7QYicmDRNYWxu8p9XW4ySwDjnp/0Hvc=
+			B47BdqsxU6cuLGKPJy1U04L2fHSp3iwj23OxRZ/yQvw=
 			</data>
 		</dict>
 		<key>Model.momd/Model.omo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CSEhx/4U4TsA7I5NStkJ+4KjqKs=
+			N68kTcTbFgH83f0XXRAZ6E1xfH0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z2e6bjhHOIQnzhClQreCXuNKEFU3yfUPYUTT2cqsFC0=
+			aQT1RYr4EfhO6tPUeW5LKYhELfHz2avD7SzCwCdqnOg=
 			</data>
 		</dict>
 		<key>Model.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sqkw2Rl0qPc038dRRtaAbGNyN7A=
+			W7q5bJlwpOMoJmi+GxkkrtQmlZQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			g6vvf/xcUjCAkMfZomQOEknr6K/mxC91BCz9KVBk13Q=
+			tWh59KoIjxBqE69gU6M1+xr6+AtLENtnWQ61Tb0mIrM=
 			</data>
 		</dict>
 		<key>Modules/Veery.swiftmodule/arm.swiftdoc</key>
@@ -121,11 +121,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CRnTxCxODZkZwcPwCeigKiiU6jk=
+			l+t8+6PRjd0uFvB1alzZerLVH8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			oRmET0EPrPtv+6oEjqmdXlzXm+/stHNDblda2T+krgg=
+			wMAksIYVJokh7PzkriW4PxtuGPS4PIKUWHy5nsZ7j98=
 			</data>
 		</dict>
 		<key>Modules/Veery.swiftmodule/arm64.swiftdoc</key>
@@ -143,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bVXbs1RaKKuYyxjN/QgF8/TaTSk=
+			CgOGn6N3i3c6PeJ/4gO7jzDbCMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vBHpx+DSX0FA04uiVcKc7XDmu71CRT/xYehk/aGm+Sw=
+			a8PUHJlf9eJJVK/a9VDR6landxzkwFCNwjiuq/07UUA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
