@@ -110,8 +110,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_UNAVAILABLE __attribute__((unavailable))
 #endif
 #if defined(__has_feature) && __has_feature(modules)
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class CLLocation;
+
+SWIFT_CLASS("_TtC5Veery5Veery")
+@interface Veery : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)serviceConnect;
+- (void)stopLocationUpdate;
+- (void)requestLocationUpdate;
+- (CLLocation * _Nullable)getCurrentLocation;
+@end
+
 #pragma clang diagnostic pop
