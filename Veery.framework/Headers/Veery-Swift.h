@@ -125,13 +125,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC5Veery5Veery")
 @interface Veery : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull backgroundSessionID;)
++ (NSString * _Nonnull)backgroundSessionID;
 @property (nonatomic, strong) id <VeeryDelegate> _Nullable delegate;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)serviceConnect;
 - (void)stopLocationUpdate;
 - (void)requestLocationUpdate;
 - (CLLocation * _Nullable)getCurrentLocation;
-- (void)test;
 - (void)handleEventsForBackgroundURLSessionWithIdentifier:(NSString * _Nonnull)identifier completionHandler:(void (^ _Nonnull)(void))completionHandler;
 @end
 
