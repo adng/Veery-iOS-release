@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Veery"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "An advanced geolocalisation API for iOS"
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "A.D. Nguyen" => "adnguyen@roofstreet.io" }
+  s.author             = { "A.D. Nguyen" => "adnguyen@roofstreet.io", "Malek Hassani" => "malek@roofstreet.io" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
