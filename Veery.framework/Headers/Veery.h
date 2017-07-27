@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+// #import <CommonCrypto/CommonCrypto.h>
 
 //! Project version number for Veery.
 FOUNDATION_EXPORT double VeeryVersionNumber;
