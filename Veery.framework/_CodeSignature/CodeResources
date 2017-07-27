@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Veery-Swift.h</key>
 		<data>
-		M8ed5jOJPvb3vzAriEWkFK0IF+o=
+		+qRVod9Q+Gu0QRqAHCz3hiCqzBM=
 		</data>
 		<key>Headers/Veery.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/Veery.swiftmodule/arm.swiftdoc</key>
 		<data>
-		fOjglIXFj560Bm/9nk0uKJXy5Kc=
+		4XKNoYZ/2ADW2otqwmumLy9soCE=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm.swiftmodule</key>
 		<data>
-		SheRERIDerYk12eUse3EHI0lhJ4=
+		5N3mmQyp9nYykZCuleiOaOB7n24=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/Veery.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		J0Fi3HOrq8gjAgTx4dhz4CmTfrA=
+		N+BKPOiCStZvLrLp4fioH6VmAIY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M8ed5jOJPvb3vzAriEWkFK0IF+o=
+			+qRVod9Q+Gu0QRqAHCz3hiCqzBM=
 			</data>
 			<key>hash2</key>
 			<data>
-			4IKOZN0cJVSg3N5LGef/OiBaJXfc3pbvYogAUxWLUOY=
+			jFCRM9dR2sxvZ4cTGV+16nBIZhpyMIdVSg61kyJr/0Q=
 			</data>
 		</dict>
 		<key>Headers/Veery.h</key>
@@ -85,22 +85,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fOjglIXFj560Bm/9nk0uKJXy5Kc=
+			4XKNoYZ/2ADW2otqwmumLy9soCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			k7f//XMBam/PpGrIjtHn7bcBKCQdKcuqg5tE4XMCpgE=
+			+463ipCvhgLOepAgq+nPZsUQHCYgXlol6zRODHSUfwc=
 			</data>
 		</dict>
 		<key>Modules/Veery.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SheRERIDerYk12eUse3EHI0lhJ4=
+			5N3mmQyp9nYykZCuleiOaOB7n24=
 			</data>
 			<key>hash2</key>
 			<data>
-			5oIaDn2RkOYXdIocfxg6po4oU6uldCVYGN/L25/v+xA=
+			kjFLM8W0UcXE2BAQvZiSiIQZ6mWXKNKJTEkCnjUTK6Q=
 			</data>
 		</dict>
 		<key>Modules/Veery.swiftmodule/arm64.swiftdoc</key>
@@ -118,11 +118,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J0Fi3HOrq8gjAgTx4dhz4CmTfrA=
+			N+BKPOiCStZvLrLp4fioH6VmAIY=
 			</data>
 			<key>hash2</key>
 			<data>
-			UBntzBFxXYX1B2is+PIzH4bYv0/LbHo4qC/JCItWjEo=
+			giKxEkTUvwp11lDXdpnpgzR7QilMHE0OPTyoR5cDTpc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

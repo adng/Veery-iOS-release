@@ -185,8 +185,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger DEACTIVE_A
 /// CLLocation?
 - (CLLocation * _Nullable)getCurrentLocation SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)handleEventsForBackgroundURLSessionWithIdentifier:(NSString * _Nonnull)identifier completionHandler:(void (^ _Nonnull)(void))completionHandler SWIFT_WARN_UNUSED_RESULT;
-- (void)didRegisterForRemoteNotificationsWithDeviceTokenWithToken:(NSString * _Nonnull)token;
-- (BOOL)didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
+- (void)setAPNSTokenWithToken:(NSData * _Nonnull)token;
+- (BOOL)apnsMessageHandler:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
 /// Set your <em>Secret API KEY</em>
 - (void)setApiKeySecret:(NSString * _Nonnull)secretapikey;
 - (void)registerNotification:(NSString * _Nonnull)subscriptionType :(NSString * _Nonnull)notificationFormat;
