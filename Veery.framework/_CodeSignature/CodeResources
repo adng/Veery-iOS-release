@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Veery-Swift.h</key>
 		<data>
-		+qRVod9Q+Gu0QRqAHCz3hiCqzBM=
+		q5LDf8bXOWn2Ua+zEZt4uYr6kj8=
 		</data>
 		<key>Headers/Veery.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		X/OadjyJU6M2yHIXf2B3ng7nFME=
+		TiSyMvcu8PTZRbneWOlO9KcK4R0=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm.swiftdoc</key>
 		<data>
-		4XKNoYZ/2ADW2otqwmumLy9soCE=
+		O/AAezkXpJYV0SsGkK/rWrf/Ik0=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm.swiftmodule</key>
 		<data>
-		5N3mmQyp9nYykZCuleiOaOB7n24=
+		xmqGIXbSAKHCFUGU6YS9Djv5OTg=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		VzVXP2VUAKThwh+qB7mwLAlUN/Q=
+		k5Picuq4ZyI3oCxqkHm7ITJ9mE8=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		N+BKPOiCStZvLrLp4fioH6VmAIY=
+		pnNDvfgI+mQ2/OxcK77N0Af1oh8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Roofstreet-Veery-db.momd/Roofstreet-Veery-db 3.mom</key>
 		<data>
-		MzVfI7ENyLAz4MKIyCd3Ec4sFDY=
+		C8Pi7wzTN4PCNrbUfoNHHGwRl2A=
 		</data>
 		<key>Roofstreet-Veery-db.momd/Roofstreet-Veery-db 3.omo</key>
 		<data>
-		JglXne9NY5TAUCZz2u+9alWVjwQ=
+		6Q4VvuIfWOhnGoKtyeSVUOswjTI=
 		</data>
 		<key>Roofstreet-Veery-db.momd/Roofstreet-Veery-db.mom</key>
 		<data>
-		MzVfI7ENyLAz4MKIyCd3Ec4sFDY=
+		tm1Q4SCjyyVfOZO5XxP+SitBDuQ=
 		</data>
 		<key>Roofstreet-Veery-db.momd/VersionInfo.plist</key>
 		<data>
-		KtjjlhUFiF2xqH62endh98K1lNk=
+		xJSc3z4/ImlLkKkMNR/dj1Bj6wA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -63,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+qRVod9Q+Gu0QRqAHCz3hiCqzBM=
+			q5LDf8bXOWn2Ua+zEZt4uYr6kj8=
 			</data>
 			<key>hash2</key>
 			<data>
-			jFCRM9dR2sxvZ4cTGV+16nBIZhpyMIdVSg61kyJr/0Q=
+			6Dm4QR1pl/IXao7mTnppziy/fB5gX8rrrJosPfs02+8=
 			</data>
 		</dict>
 		<key>Headers/Veery.h</key>
@@ -85,44 +85,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4XKNoYZ/2ADW2otqwmumLy9soCE=
+			O/AAezkXpJYV0SsGkK/rWrf/Ik0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+463ipCvhgLOepAgq+nPZsUQHCYgXlol6zRODHSUfwc=
+			U19N5EU++HUl/8rAyiC1F/Be9tt5XdStUwhkrFvvA9o=
 			</data>
 		</dict>
 		<key>Modules/Veery.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5N3mmQyp9nYykZCuleiOaOB7n24=
+			xmqGIXbSAKHCFUGU6YS9Djv5OTg=
 			</data>
 			<key>hash2</key>
 			<data>
-			kjFLM8W0UcXE2BAQvZiSiIQZ6mWXKNKJTEkCnjUTK6Q=
+			x7r0JX+xXfEEHAaWa5eFJfAACYYPgsqZvSmJO3qLE2w=
 			</data>
 		</dict>
 		<key>Modules/Veery.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VzVXP2VUAKThwh+qB7mwLAlUN/Q=
+			k5Picuq4ZyI3oCxqkHm7ITJ9mE8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gd7zyp+B8a0VOOEVsLi3BdXIXloeUM0g+gRYurDzMvA=
+			Td7IoiylLxIwc8stCnO9ZPs8Hhf4uIGPkD9gtBNLTvE=
 			</data>
 		</dict>
 		<key>Modules/Veery.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N+BKPOiCStZvLrLp4fioH6VmAIY=
+			pnNDvfgI+mQ2/OxcK77N0Af1oh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			giKxEkTUvwp11lDXdpnpgzR7QilMHE0OPTyoR5cDTpc=
+			W3wxDQkYe0hK2Quq3rWcbrlJDYVirA8aLByqOW4hmko=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -151,44 +151,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MzVfI7ENyLAz4MKIyCd3Ec4sFDY=
+			C8Pi7wzTN4PCNrbUfoNHHGwRl2A=
 			</data>
 			<key>hash2</key>
 			<data>
-			u8wkQhAIXhtm0BuL9yXpYPoiGIo/ClaMCOs8BtdTUwU=
+			87kTllYs7+S1qWMRUeQ9A+71V4UEgrh5nMRRfVqfuz0=
 			</data>
 		</dict>
 		<key>Roofstreet-Veery-db.momd/Roofstreet-Veery-db 3.omo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JglXne9NY5TAUCZz2u+9alWVjwQ=
+			6Q4VvuIfWOhnGoKtyeSVUOswjTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			wAcN+K5qKYcWPOd9QayGIZ9kbOxXeUo0GsWzYQQiTJE=
+			fXzzwWAI/Ge+EM5Pd8+/nQ8pE+eOip9ZMXQse5B6Ibo=
 			</data>
 		</dict>
 		<key>Roofstreet-Veery-db.momd/Roofstreet-Veery-db.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MzVfI7ENyLAz4MKIyCd3Ec4sFDY=
+			tm1Q4SCjyyVfOZO5XxP+SitBDuQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			u8wkQhAIXhtm0BuL9yXpYPoiGIo/ClaMCOs8BtdTUwU=
+			kvkgdPD8RF22pObgtZrHDxvWL0GEPGFFtECfEr97yPo=
 			</data>
 		</dict>
 		<key>Roofstreet-Veery-db.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KtjjlhUFiF2xqH62endh98K1lNk=
+			xJSc3z4/ImlLkKkMNR/dj1Bj6wA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fjw4BhhRtY03qghwoAMP25ed19J+zI/Xs4qH8gQ4oUg=
+			h/igHDrV49gk00OQzh0DMMoC97olK1V3Y9JgTp51SJY=
 			</data>
 		</dict>
 	</dict>

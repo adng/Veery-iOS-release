@@ -143,6 +143,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class CLLocation;
 @class LocationsHistory;
 @class Predictions;
+@class NSDictionary;
 @class Pois;
 
 SWIFT_CLASS("_TtC5Veery5Veery")
@@ -185,6 +186,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger DEACTIVE_A
 /// CLLocation?
 - (CLLocation * _Nullable)getCurrentLocation SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)handleEventsForBackgroundURLSessionWithIdentifier:(NSString * _Nonnull)identifier completionHandler:(void (^ _Nonnull)(void))completionHandler SWIFT_WARN_UNUSED_RESULT;
+- (void)setAPNSTokenWithToken:(NSData * _Nonnull)token prod:(BOOL)prod;
 - (void)setAPNSTokenWithToken:(NSData * _Nonnull)token;
 - (BOOL)apnsMessageHandler:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
 /// Set your <em>Secret API KEY</em>
@@ -208,6 +210,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger DEACTIVE_A
 /// LocationsHistory?
 - (LocationsHistory * _Nullable)getLocationHistory:(NSInteger)format :(NSDate * _Nullable)since :(NSDate * _Nullable)until SWIFT_WARN_UNUSED_RESULT;
 - (Predictions * _Nullable)getNextTrip SWIFT_WARN_UNUSED_RESULT;
++ (CLLocationCoordinate2D)locationWithBearingWithBearing:(double)bearing distanceMeters:(double)distanceMeters origin:(CLLocationCoordinate2D)origin SWIFT_WARN_UNUSED_RESULT;
++ (NSArray<NSValue *> * _Nullable)getBoundingBoxWithData:(NSData * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
++ (NSArray<NSValue *> * _Nullable)getBoundingBoxWithGeojson:(NSDictionary * _Nonnull)geojson SWIFT_WARN_UNUSED_RESULT;
++ (CLLocationCoordinate2D)getFirstCoordinatesWithGeojson:(NSDictionary * _Nonnull)geojson SWIFT_WARN_UNUSED_RESULT;
++ (NSArray<NSValue *> * _Nullable)getBoundingBoxWithLoc:(CLLocation * _Nonnull)loc SWIFT_WARN_UNUSED_RESULT;
 - (void)resetLocalHistory;
 - (void)resetBackendHistory;
 - (void)resetGeoProfileHistory;
@@ -224,6 +231,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger DEACTIVE_A
 
 SWIFT_CLASS("_TtCC5Veery5Veery16LocationsHistory")
 @interface LocationsHistory : NSObject
+- (NSInteger)count SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<CLLocation *> * _Nonnull)toArray SWIFT_WARN_UNUSED_RESULT;
 - (CLLocationCoordinate2D)getFirstLocation SWIFT_WARN_UNUSED_RESULT;
 /// \param geometry String must be “LineString, MultiPoint”
@@ -248,18 +256,17 @@ SWIFT_CLASS("_TtCC5Veery5Veery16LocationsHistory")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSDictionary;
 
 SWIFT_CLASS("_TtCC5Veery5Veery11Predictions")
 @interface Predictions : NSObject
 - (NSArray<CLLocation *> * _Nullable)toLocations SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isOk SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<NSValue *> * _Nullable)toLocationCoordinate2D SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary * _Nullable)toGeoJson SWIFT_WARN_UNUSED_RESULT;
-- (CLLocation * _Nullable)getStartTrip SWIFT_WARN_UNUSED_RESULT;
 - (CLLocation * _Nullable)getNextDestination SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nullable)getStartTime SWIFT_WARN_UNUSED_RESULT;
+- (NSDate * _Nullable)getStartTime SWIFT_WARN_UNUSED_RESULT;
 /// Get the estimate <em>Arrival</em> time to your next <em>Destination</em>
-- (NSString * _Nullable)getArrivalTime SWIFT_WARN_UNUSED_RESULT;
+- (NSDate * _Nullable)getArrivalTime SWIFT_WARN_UNUSED_RESULT;
 - (double)getProbability SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getStartName SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getArrivalName SWIFT_WARN_UNUSED_RESULT;
@@ -270,7 +277,10 @@ SWIFT_CLASS("_TtCC5Veery5Veery11Predictions")
 
 SWIFT_CLASS("_TtCC5Veery5Veery4Pois")
 @interface Pois : NSObject
-- (NSArray<NSData *> * _Nonnull)toGeoJSON SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSData *> * _Nonnull)toGeoJSONArray SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)count SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSValue *> * _Nonnull)toArray SWIFT_WARN_UNUSED_RESULT;
+- (double)getWeightWithIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
