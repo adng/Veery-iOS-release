@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Veery"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "An advanced geolocalisation API for iOS"
 
   # This description is used to generate tags and improve search results.
