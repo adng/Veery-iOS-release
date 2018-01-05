@@ -274,6 +274,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger DEACTIVATE
 - (void)getAlllocationTodebug;
 - (void)requestPoiUpdate;
 - (void)stopPoiUpdate;
+- (NSString * _Nullable)getStatus SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
