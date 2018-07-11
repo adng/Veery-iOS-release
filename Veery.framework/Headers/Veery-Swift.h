@@ -230,6 +230,11 @@ SWIFT_CLASS("_TtC5Veery4Tags")
 @class Predictions;
 @class NSDictionary;
 @class Pois;
+@class OptinView;
+@class OptinImage;
+@class OptinText;
+@class OptinButton;
+@class UIButton;
 
 SWIFT_CLASS("_TtC5Veery5Veery")
 @interface Veery : NSObject
@@ -334,6 +339,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger USER_AUTH_
 - (NSInteger)userAgreement SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)userAgreementAge SWIFT_WARN_UNUSED_RESULT;
 - (void)userAgreedPurposeWithPurposeVersion:(NSInteger)PurposeVersion PurposeText:(NSString * _Nonnull)PurposeText ApprovalButtonText:(NSString * _Nonnull)ApprovalButtonText RejectionButtonText:(NSString * _Nonnull)RejectionButtonText Agreed:(BOOL)Agreed;
+- (void)optinWithOptinView:(OptinView * _Nonnull)optinView optinImage:(OptinImage * _Nonnull)optinImage optinText:(OptinText * _Nonnull)optinText optinButtonOK:(OptinButton * _Nonnull)optinButtonOK optinButtonNO:(OptinButton * _Nonnull)optinButtonNO;
+- (void)acceptWithSender:(UIButton * _Nonnull)sender;
+- (void)refuseWithSender:(UIButton * _Nonnull)sender;
 @end
 
 
@@ -392,6 +400,49 @@ SWIFT_CLASS("_TtCC5Veery5Veery4Pois")
 - (NSInteger)count SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<NSValue *> * _Nonnull)toArray SWIFT_WARN_UNUSED_RESULT;
 - (double)getWeightWithIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtCC5Veery5Veery9OptinView")
+@interface OptinView : NSObject
+@property (nonatomic) float x;
+@property (nonatomic) float y;
+@property (nonatomic) NSInteger height;
+@property (nonatomic) NSInteger width;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtCC5Veery5Veery10OptinImage")
+@interface OptinImage : NSObject
+@property (nonatomic) float x;
+@property (nonatomic) float y;
+@property (nonatomic) NSInteger height;
+@property (nonatomic) NSInteger width;
+@property (nonatomic, copy) NSString * _Nonnull name;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtCC5Veery5Veery9OptinText")
+@interface OptinText : NSObject
+@property (nonatomic) float x;
+@property (nonatomic) float y;
+@property (nonatomic) NSInteger height;
+@property (nonatomic) NSInteger width;
+@property (nonatomic, copy) NSString * _Nonnull message;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtCC5Veery5Veery11OptinButton")
+@interface OptinButton : NSObject
+@property (nonatomic, copy) NSString * _Nonnull color;
+@property (nonatomic, copy) NSString * _Nonnull textColor;
+@property (nonatomic) NSInteger height;
+@property (nonatomic) NSInteger width;
+@property (nonatomic, copy) NSString * _Nonnull text;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
