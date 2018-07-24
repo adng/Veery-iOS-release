@@ -339,7 +339,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger USER_AUTH_
 - (NSInteger)userAgreement SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)userAgreementAge SWIFT_WARN_UNUSED_RESULT;
 - (void)userAgreedPurposeWithPurposeVersion:(NSInteger)PurposeVersion PurposeText:(NSString * _Nonnull)PurposeText ApprovalButtonText:(NSString * _Nonnull)ApprovalButtonText RejectionButtonText:(NSString * _Nonnull)RejectionButtonText Agreed:(BOOL)Agreed;
-- (void)optinWithOptinView:(OptinView * _Nonnull)optinView optinImage:(OptinImage * _Nonnull)optinImage optinText:(OptinText * _Nonnull)optinText optinButtonOK:(OptinButton * _Nonnull)optinButtonOK optinButtonNO:(OptinButton * _Nonnull)optinButtonNO;
+- (void)activateWithOptinWithActivate:(NSInteger)activate version:(NSInteger)version optinView:(OptinView * _Nullable)optinView optinImage:(OptinImage * _Nonnull)optinImage optinText:(OptinText * _Nonnull)optinText optinButtonOK:(OptinButton * _Nonnull)optinButtonOK optinButtonNO:(OptinButton * _Nonnull)optinButtonNO;
 - (void)acceptWithSender:(UIButton * _Nonnull)sender;
 - (void)refuseWithSender:(UIButton * _Nonnull)sender;
 @end
@@ -410,6 +410,7 @@ SWIFT_CLASS("_TtCC5Veery5Veery9OptinView")
 @property (nonatomic) float y;
 @property (nonatomic) NSInteger height;
 @property (nonatomic) NSInteger width;
+@property (nonatomic, copy) NSString * _Nonnull backgroundColor;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -421,6 +422,10 @@ SWIFT_CLASS("_TtCC5Veery5Veery10OptinImage")
 @property (nonatomic) NSInteger height;
 @property (nonatomic) NSInteger width;
 @property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic) NSInteger bottomMargin;
+@property (nonatomic) NSInteger topMargin;
+@property (nonatomic) NSInteger rightMargin;
+@property (nonatomic) NSInteger leftMargin;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -432,6 +437,10 @@ SWIFT_CLASS("_TtCC5Veery5Veery9OptinText")
 @property (nonatomic) NSInteger height;
 @property (nonatomic) NSInteger width;
 @property (nonatomic, copy) NSString * _Nonnull message;
+@property (nonatomic) NSInteger bottomMargin;
+@property (nonatomic) NSInteger topMargin;
+@property (nonatomic) NSInteger rightMargin;
+@property (nonatomic) NSInteger leftMargin;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -443,6 +452,10 @@ SWIFT_CLASS("_TtCC5Veery5Veery11OptinButton")
 @property (nonatomic) NSInteger height;
 @property (nonatomic) NSInteger width;
 @property (nonatomic, copy) NSString * _Nonnull text;
+@property (nonatomic) NSInteger bottomMargin;
+@property (nonatomic) NSInteger topMargin;
+@property (nonatomic) NSInteger rightMargin;
+@property (nonatomic) NSInteger leftMargin;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
