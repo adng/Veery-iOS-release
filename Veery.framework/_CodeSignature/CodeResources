@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Xnjv4I+2NxWSFb5Ml2QssuSsEs8=
+		HfAdR5l4vrMoh9Ks/tW3sgXWHCs=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/Veery.swiftmodule/arm.swiftmodule</key>
 		<data>
-		W4r2bB0QUL3sofAuhCgi7Zbd/2k=
+		wrZe9YgNN2kE/YDk0qNZ6jZvkUE=
 		</data>
 		<key>Modules/Veery.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/Veery.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		f0qG2E0486R6fnnSYr5znWAk1rY=
+		N6fe/gk4wE7U628WcRa3iWaFPic=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W4r2bB0QUL3sofAuhCgi7Zbd/2k=
+			wrZe9YgNN2kE/YDk0qNZ6jZvkUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			vShh/aXDXrhfJco8w42Q5Pyxb1QQ9e/ZYbyVSQQSk10=
+			owurwwxU/HT2PafygXNuxjRsRzS1VueK0/XQNGXhFSc=
 			</data>
 		</dict>
 		<key>Modules/Veery.swiftmodule/arm64.swiftdoc</key>
@@ -150,11 +150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f0qG2E0486R6fnnSYr5znWAk1rY=
+			N6fe/gk4wE7U628WcRa3iWaFPic=
 			</data>
 			<key>hash2</key>
 			<data>
-			kYlVOC7/gtBnsOGhtmrmVvrq3RVg4Ppxs4t3ltQokQs=
+			s++sfLJueZecWmDGrFD+zsdlqStug9YA0HxnRGIsNOE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
